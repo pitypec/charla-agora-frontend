@@ -1,3 +1,13 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +21,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('./component/header/header.css');
+
+@import url('./component/mainpages/auth/auth.css');
+
+@import url('./component/mainpages/forgotpassword/forgotpassword.css');
+
+@import url('./component/mainpages/resetpassword/resetpassword.css');
+
+@import url('./component/mainpages/dashboard/dashboard.css');
+
+@import url('./component/mainpages/posttile/posttile.css');
