@@ -1,0 +1,15 @@
+.post-wrapper {
+  min-height: 80vh;
+}
+
+.col-wrapper {
+  min-height: 80vh;
+  display: flex;
+}
+.col-one {
+  flex: 2;
+  transform: translateX(650px);
+}
+.col-two {
+  flex: 1;
+}

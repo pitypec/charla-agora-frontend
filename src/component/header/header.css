@@ -1,0 +1,97 @@
+header {
+  height: 7em;
+  width: 100%;
+  background: #00d4ff;
+}
+
+header.sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-wrapper h2 {
+  letter-spacing: 0.2em;
+  font-size: 2em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+div.main-header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.logo {
+  flex: 1;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.logo a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+
+.search-input input {
+  width: 20.5em;
+  height: 3em;
+  padding: 1em;
+  outline: none;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.header-menu {
+  width: 30em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+}
+.header-menu li {
+  padding: 0.1em;
+}
+.header-menu li:nth-child(3) {
+  padding: 0.5em;
+  border: 1px solid #00d4ff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header-menu li a {
+  color: white;
+  text-decoration: none;
+}
+.profile-thumbnail {
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+.user-name {
+  margin-right: 3px;
+  font-size: 13px;
+  color: #ffffff;
+}
+.notification-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  position: absolute;
+  top: 0;
+  background: red;
+  color: white;
+  text-align: center;
+}
+.settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
