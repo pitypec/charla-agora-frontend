@@ -24,6 +24,7 @@ const Login = () => {
       });
       localStorage.setItem('firstLogin', true);
       history.push('/dashboard');
+      alert(res.data.msg);
     } catch (error) {
       console.log(error);
     }

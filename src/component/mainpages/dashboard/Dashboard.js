@@ -7,7 +7,7 @@ import PostTile from '../posttile/PostTile';
 const Dashboard = () => {
   const history = useHistory();
   const state = useContext(GlobalState);
-  const [userInfo, setUserInfo] = state.userApi.userInfo;
+  const [userInfo] = state.userApi.userInfo;
   const logout = async () => {
     try {
       await Axios.get('/users/logout');
@@ -25,6 +25,7 @@ const Dashboard = () => {
         </div>
         <div className='col-two'>
           <button onClick={logout}>logout</button>
+          <span>{userInfo.local.email}</span>
         </div>
       </div>
     </div>
